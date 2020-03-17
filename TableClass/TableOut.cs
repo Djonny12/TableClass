@@ -45,22 +45,15 @@ namespace TableClass
             //                   { 11,12,13,14,15},
             //                  {16,17,18,19,20},
             //                  { 21,22,23,24,25} };
-            string [,] Array = new string [Num,Num];
             dataGridView1.ColumnCount = Num;
             dataGridView1.RowCount = Num;
-            for (int i = 0; i < Num; i++)
-            {
-                for (int j = 0; j < Num; j++)
-                {
-                    Array[i, j] = ArrayFinal[i, j];
-                }
-            }
+            
 
             for (int i = 0; i < Num; i++)
             {
                 for (int j = 0; j < Num; j++)
                 {
-                    dataGridView1[i, j].Value = Array[i, j] ;
+                    dataGridView1[i, j].Value = ArrayFinal[i, j] ;
                     
                 }
 

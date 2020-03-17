@@ -64,7 +64,7 @@ namespace TableClass
                     tl.Input(N);
                     tl.Letter();
                     //tl.Output();
-                                        tableOut.Visible = true;
+                    tableOut.Visible = true;
 
 
                     break;
