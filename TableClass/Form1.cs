@@ -39,9 +39,9 @@ namespace TableClass
                     TableNumber tn = new TableNumber();
                     tn.Input(N);
                     tn.Number();
-                    //tn.Output();
                     tableOut.Visible = true;
-                    
+                    tableOut.DrawTable(N, tn.ArrayFinal);
+
 
                     break;
 
@@ -52,8 +52,8 @@ namespace TableClass
                     TableSyllabel ts = new TableSyllabel();
                     ts.Input(N);
                     ts.Syllabel();
-                    //ts.Output();
                     tableOut.Visible = true;
+                    tableOut.DrawTable(N, ts.ArrayFinal);
 
                     break;
 
@@ -63,9 +63,8 @@ namespace TableClass
                     TableLetter tl = new TableLetter();
                     tl.Input(N);
                     tl.Letter();
-                    //tl.Output();
                     tableOut.Visible = true;
-
+                    tableOut.DrawTable(N, tl.ArrayFinal);
 
                     break;
             }
