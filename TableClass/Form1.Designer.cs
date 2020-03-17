@@ -87,7 +87,7 @@
             this.sizeTable.AllowDrop = true;
             this.sizeTable.Location = new System.Drawing.Point(250, 172);
             this.sizeTable.Maximum = new decimal(new int[] {
-            5,
+            10,
             0,
             0,
             0});

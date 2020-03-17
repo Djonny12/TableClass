@@ -37,8 +37,10 @@ namespace TableClass
 
         private void TableOut_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Visible = true;
+            _ = new Form1
+            {
+                Visible = true
+            };
         }
     }
 }

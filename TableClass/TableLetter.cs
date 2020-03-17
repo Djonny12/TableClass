@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace TableClass
 {
@@ -45,7 +46,8 @@ namespace TableClass
             }
             else
             {
-                Console.WriteLine("Ошибка");
+                MessageBox.Show("Неверное значение", "Ошибка", MessageBoxButtons.OK);
+                Application.Restart();
             }
 
             return ArrayFinal;
