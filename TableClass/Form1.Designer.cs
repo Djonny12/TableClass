@@ -126,7 +126,9 @@
             this.Controls.Add(this.numberButton);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Выбор упражнения";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.sizeTable)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
