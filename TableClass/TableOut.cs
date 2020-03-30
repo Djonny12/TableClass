@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace TableClass
 {
-    public partial class TableOut : Form
+    public partial class TableOutForm : Form
     {
-        public TableOut()
+        public TableOutForm()
         {
             InitializeComponent();
 
@@ -51,6 +51,7 @@ namespace TableClass
 
             }
         }
+
 
         private void TableOut_FormClosed(object sender, FormClosedEventArgs e)
         {

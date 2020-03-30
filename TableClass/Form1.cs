@@ -22,7 +22,7 @@ namespace TableClass
             if (letterButton.Checked == true)
                 q = 3;
 
-            TableOut tableOut = new TableOut();
+            TableOutForm tableOut = new TableOutForm();
 
             switch (q)
             {
